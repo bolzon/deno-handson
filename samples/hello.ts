@@ -1,2 +1,2 @@
 
-console.log('Welcome to deno-land!');
+console.log('Hello world!');
