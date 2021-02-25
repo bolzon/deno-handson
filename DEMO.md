@@ -16,6 +16,9 @@ deno run https://raw.githubusercontent.com/bolzon/deno-handson/main/samples/hell
 
 > **Module cache:** modules imported in deno are cached such as `<script>` tag in browser.
 
+Demo:
+- [hello.ts](./samples/hello.ts)
+
 ## Fetch demo
 
 Access to network needs explicit permission (`--allow-net`).
@@ -25,6 +28,15 @@ deno run --allow-net <script>
 ```
 
 Demos:
-- [promise fetch](./samples/fetch-promise.ts)
-- [async/await fetch](./samples/fetch-async.ts)
-- [mixed fetch](./samples/fetch-mixed.ts)
+- [fetch-promise.ts](./samples/fetch-promise.ts)
+- [fetch-async.ts](./samples/fetch-async.ts)
+- [fetch-mixed.ts](./samples/fetch-mixed.ts)
+
+## Http server demo
+
+How to start a simple HTTP server.
+
+No external modules needed; uses the [Deno Standard Library](https://deno.land/std).
+
+Demo:
+- [http-server.ts](./samples/http-server.ts)
