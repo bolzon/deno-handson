@@ -1,0 +1,16 @@
+{
+    "composers": [
+        {
+            "name": "Sergei Rachmaninoff",
+            "country": "Russia"
+        },
+        {
+            "name": "Franz Liszt",
+            "country": "Hungary"
+        },
+        {
+            "name": "Frederic Chopin",
+            "country": "Poland"
+        }
+    ]
+}

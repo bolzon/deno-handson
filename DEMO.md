@@ -40,3 +40,10 @@ No external modules needed; uses the [Deno Standard Library](https://deno.land/s
 
 Demo:
 - [http-server.ts](./samples/http-server.ts)
+
+## File read demo
+
+Read a json file in Deno.
+
+Demo:
+- [file-read.ts](./samples/file-read.ts)
