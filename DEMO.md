@@ -78,3 +78,11 @@ Scripts can be compiled into a single executable file.
 ```sh
 deno compile --unstable <OUT>
 ```
+
+## Watch scripts
+
+Deno has a built-in file watcher (like `nodemon`) to restart a script that was changed on disk.
+
+```sh
+deno run --watch --unstable --allow-net http-server.ts
+```
