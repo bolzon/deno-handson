@@ -1,10 +1,8 @@
 
 const url = 'https://api.github.com/users/bolzon';
 
-async function asyncFetch() {
-    const res = await fetch(url);
-    const json = await res.json();
-    console.log(json);
-}
+const res = await fetch(url);
 
-asyncFetch();
+const json = await res.json();
+
+console.log(json);
