@@ -98,6 +98,12 @@ deno fmt          # all files
 deno fmt file.ts  # only file.ts
 ```
 
+It's also possible just to check the file (diff) format instead of applying it by adding `--check` flag.
+
+```sh
+deno fmt --check  # checks format only
+```
+
 ### Linter
 
 Deno has a built-in code linter for TypeScript and JavaScript.
