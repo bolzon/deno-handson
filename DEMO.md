@@ -2,6 +2,8 @@
 
 ## Hello world demo
 
+Prints "Hello world!".
+
 From terminal:
 
 ```js
@@ -14,12 +16,14 @@ From URL:
 deno run https://raw.githubusercontent.com/bolzon/deno-handson/main/samples/hello.ts
 ```
 
-> **Module cache:** modules imported in deno are cached such as `<script>` tag in browser.
-
 Demo:
 - [hello.ts](./samples/hello.ts)
 
+> **Module cache:** modules imported in deno are cached such as `<script>` tag in browser.
+
 ## Fetch demo
+
+Fetch remote content in different ways.
 
 Access to network needs explicit permission (`--allow-net`).
 
@@ -43,7 +47,26 @@ Demo:
 
 ## File read demo
 
-Read a json file in Deno.
+Read a text file.
+
+Access to read files needs explicit permission (`--allow-read`).
+
+```sh
+deno run --allow-read <script>
+```
 
 Demo:
 - [file-read.ts](./samples/file-read.ts)
+
+## File write demo
+
+Write a text file.
+
+Access to write files needs explicit permission (`--allow-write`).
+
+```sh
+deno run --allow-write <script>
+```
+
+Demo:
+- [file-write.ts](./samples/file-write.ts)
