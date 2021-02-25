@@ -79,10 +79,30 @@ Scripts can be compiled into a single executable file.
 deno compile --unstable <OUT>
 ```
 
-## Watch scripts
+## Built-in functionalities
+
+### Watcher
 
 Deno has a built-in file watcher (like `nodemon`) to restart a script that was changed on disk.
 
 ```sh
 deno run --watch --unstable --allow-net http-server.ts
+```
+
+### Formatter
+
+Deno has a built-in code formatter that auto formats TypeScript and JavaScript code.
+
+```sh
+deno fmt          # all files
+deno fmt file.ts  # only file.ts
+```
+
+### Linter
+
+Deno has a built-in code linter for TypeScript and JavaScript.
+
+```sh
+deno lint --unstable          # all files
+deno lint --unstable file.ts  # only file.ts
 ```
