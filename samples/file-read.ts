@@ -1,4 +1,6 @@
 
-const composers = await Deno.readTextFile('./composers.json');
+const composers = await Deno
+    .readTextFile('./composers.json')
+    .then(content => JSON.parse(content).composers);
 
-console.log(composers);
+console.table(composers);
