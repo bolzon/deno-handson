@@ -70,3 +70,11 @@ deno run --allow-write <script>
 
 Demo:
 - [file-write.ts](./samples/file-write.ts)
+
+## Compile scripts
+
+Scripts can be compiled into a single executable file.
+
+```sh
+deno compile --unstable <OUT>
+```
